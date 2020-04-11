@@ -44,7 +44,7 @@ public void onLoot(LootTableLoadEvent e)
             └── assets
                 └── tut
 ```
-И создадим в папке `tut` папку `loot_tables` и в ней ещё одну папку `chests`. Создадим в папке `chests` файл с таким название `tut_spawn_bonus_chest` и форматом `.json`.
+И создадим в папке `tut` папку `loot_tables` и в ней ещё одну папку `chests`. Создадим в папке `chests` файл с таким названием `tut_spawn_bonus_chest` и форматом `.json`.
 
 Содержание файла:
 ```Json
@@ -56,7 +56,7 @@ public void onLoot(LootTableLoadEvent e)
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:dimond",
+                    "name": "minecraft:diamond",
                     "weight": 24
                 },
                 {
